@@ -43,7 +43,7 @@ const index = () => {
       </div>
       <div style={{display:"flex",flexWrap:"wrap"}}>
       {numberList.map((number: number|string, index:number) =>
-        <button key={index} onClick={()=>numClick(number)} style={{width:"100px",borderRadius:"999px",display:"block"}}>
+        <button key={index} onClick={()=>numClick(number)} style={{width:"100px",borderRadius:"999px",display:"block",height:"100px"}}>
           {number}
         </button>
         )}
