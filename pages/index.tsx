@@ -36,9 +36,9 @@ const index = () => {
   return (
     <div style={{ width: "300px",margin:"auto",textAlign:"center"}}>
       <h3>電話番号を入力してください</h3>
-      <div style={{height:"30px",textAlign:"left"}}>
+      <div style={{height:"30px",textAlign:"left",width:"250px", margin:"auto"}}>
       {currentNumber?.map((number: number, index: number) =>
-          <span key={index} style={{borderBottom:"1px solid black",margin:"0 10px"}}>{number}</span>
+          <span key={index} style={{borderBottom:"1px solid black",margin:"0 5px",fontSize:"18px"}}>{number}</span>
         )}
       </div>
       <div style={{display:"flex",flexWrap:"wrap"}}>
